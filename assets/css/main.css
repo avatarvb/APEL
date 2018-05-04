@@ -1,0 +1,119 @@
+*{transition:all .3s;}
+body{
+  font-family: 'Lato', arial !important;
+  position: relative;
+}
+
+.section-soon{text-align: center;color:#1D649F;}
+.soon{text-align: center;font-size: 3em;margin-top:20vh;color:#FFB300;text-shadow: 1px 1px 1px #000;}
+h5{background-color:#FFB300;max-width:550px;padding: 0px 10px !important;color: #FFF;font-weight: 300;height: 50px;line-height: 50px !important;}
+.spinner{z-index: 9999;position: fixed;top:50px;right:30px;height: 35px;width: 35px;background: url('../img/spinner.gif')center ;background-size: 90%;background-repeat: no-repeat;display: none;}
+.bulle{width:350px;position: fixed;top:39vh;right:50px;z-index: 9999;background-color:rgba(7,61,89, .9);font-size:15px;color:#FFF;font-weight: 300;}
+.bulle ul{width: 100%;}
+.close{position: absolute;top:15px;right:15px;cursor: pointer;}
+.bulle h5{margin:0;width: 100% !important;z-index: 999;}
+.arow{height:15px;width: 15px;background: #FFB300;    transform: rotate(45deg);z-index: 100;top:43px;left:30px;position: absolute;}
+.head-table-jaune{background-color: rgba(255,179,0, .5);color:#1D649F;}
+.jaune{color:  #FFB300;}
+.bleu{color: #073D59;font-weight: bold;}
+.head-table-jaune{}
+  .text-justify{text-align: justify; padding:5px;}
+/* .head-table-jaune tr{text-align: right !important;} */
+/* .container{
+  position: relative;
+  overflow: hidden;
+  width: 100% !important;
+} */
+
+nav{
+  height: 140px;
+  background: #073D59 url('../img/entete usmba.png')70% 10px !important;
+  background-size: 70% 90% !important;
+  background-repeat: no-repeat !important;
+
+}
+.brand-logo{
+  width: 180px;height: 140px;
+  display: block;
+  border:1px solid #888 !important;
+  background:#FFF url('../img/logo+titre_rond.png')center !important;
+  background-size: 70% !important;
+  background-repeat: no-repeat !important;
+
+}
+
+
+  .sidebar{}
+    /* Style navigation */
+
+  .navigation{min-height:100vh;width: 180px !important;padding: 0 !important;margin:0;position: fixed;left:0;top:140px !important;background: #FFB300 !important;}
+  .navigation .logo-apel{height: 140px !important;width: 100% !important;display: block;background: #fff !important;}
+  .navigation .logo-apel img{height: 140px !important;width: 80% !important;display: block;margin: auto;}
+  .navigation .collection{width: 100%;border:#eee;padding: 0 !important;position: relative;}
+  .navigation .collection a{padding-left:10px;width: 100%;color: #fff !important;background-color:#FFB300 !important;font-weight: 400;}
+  .navigation .collection a:hover{color:#073D59 !important;padding-left:5px;font-weight: 300;}
+  .navigation .collection a img{height: 20px;float: right;}
+  .navigation .copy{width:180px;color:#073D59;font-size: 12px;text-align: center !important;margin-top:10px;font-weight: 400;bottom: 0;position: fixed;left:0;}
+
+  /* Style content */
+
+  .content{margin-top:40px;}
+  .main-content{margin-top:40px;}
+
+  /* Style home */
+  #home-intro blockquote{border-left:5px solid rgba(255,179,0, .6);text-align: justify;}
+  #home h5{background-color:#FFB300;width: 300px;padding:10px;color: #FFF;font-weight: 300;}
+  .logo-apel{height: 76px;width:500px; display:block;margin:20px auto !important;background: url('../img/titre-logo-date.png')top center;background-size: 95%;background-repeat:no-repeat;}
+  .carousel{border-bottom:4px solid #FFB300;}
+  .carousel .indicators{margin-bottom:-62px;background: rgba(255,255,255,0.5);}
+  .carousel:hover .indicators{margin-bottom:0px;}
+  .carousel:hover .indicators li{background-color: #FFB300; !important;}
+  .carousel:hover .indicators .active{background-color: #073D59; !important;}
+
+  .carousel .carousel-item{}
+  .carousel .carousel-item img{height: 100%;}
+
+  /* style map*/
+  #map{
+    height:300px;
+    background-color: #999;
+  }
+  /* Style Parteners */
+  .partners {padding-top: 100px;}
+  .partners .chip{height: 150px;width: 300px;float: left;margin-bottom: 20px;}
+  .partners .chip img{height: 150px;width: 130px;border-radius: 0 !important;background-color: #fff;}
+
+  /* Style Commitees */
+  #committee ul li {
+    margin-left: 20px;
+    list-style-image: url('../img/list.png');
+  }
+
+  /* Style Topics */
+  #topics ul li {
+    margin-left: 20px;
+    list-style-image: url('../img/list.png');
+  }
+
+  /* Style Topics */
+  #partners ul {
+  }
+
+  #partners ul li {
+    margin:10px;
+    width: 140px; height: 230px; display: inline-flex;
+
+    background-color: rgba(255,179,0, .5);
+  }
+
+  #partners ul li img {
+    width: 140px;height:225px; display: block; float: left;
+  }
+
+
+
+/* Style submission */
+#submission ul li {
+  margin-left: 20px;
+  list-style-image: url('../img/list.png');
+}

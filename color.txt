@@ -1,0 +1,13 @@
+
+===================Colors===================
+Blue
+  #073D59
+  rgba(7,61,89, .5)
+  #1D649F
+Yallow
+  #FFB300
+  rgba(255,179,0, .5)
+
+
+Links
+https://www.w3schools.com/w3css/w3css_sidebar.asp

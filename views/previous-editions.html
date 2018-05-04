@@ -1,0 +1,143 @@
+<style media="screen">
+
+.pre-edi .step{}
+  .pre-edi .step-item::before
+
+</style>
+
+
+<div class="row pre-edi">
+  <div class="col s12">
+    <br>
+    <br>
+    <h5 class="z-depth-2">
+        Previous Editions   :
+    </h5>
+    <br>
+    <br>  <br>
+      <br>
+      <ul class="step">
+        <li class="step-item">
+          <a href="http://www.est-usmba.ac.ma/conferences/apel2015/" class="tooltip" data-tooltip="November 25th & 26th - 2015">APEL '15</a>
+        </li>
+        <li class="step-item ">
+          <a href="http://www.fstfes.fst-usmba.ac.ma/conferences/APEL2016/" class="tooltip" data-tooltip="December 14th & 16th - 2016">APEL '16</a>
+        </li>
+        <li class="step-item active">
+          <a href="http://www.est-usmba.ac.ma/conferences/apel2018/" class="tooltip" data-tooltip="December 28th, 29th & 30th - 2018 ">APEL '18</a>
+        </li>
+      </ul>
+  </div>
+</div>
+<style>
+.step {
+display: flex;
+flex-wrap: nowrap;
+list-style: none;
+margin: 0.2rem 0;
+width: 100%;
+}
+.step .step-item {
+flex: 1 1 0;
+margin-top: 0;
+min-height: 1rem;
+text-align: center;
+position: relative;
+}
+.step .step-item:not(:first-child)::before {
+background: #5755d9;
+content: "";
+height: 2px;
+left: -50%;
+position: absolute;
+top: 9px;
+width: 100%;
+}
+.step .step-item a {
+color: #acb3c2;
+display: inline-block;
+padding: 20px 10px 0;
+text-decoration: none;
+}
+.step .step-item a::before {
+background: #5755d9;
+border: 0.1rem solid #fff;
+border-radius: 50%;
+content: "";
+display: block;
+height: 0.6rem;
+left: 50%;
+position: absolute;
+top: 0.2rem;
+transform: translateX(-50%);
+width: 0.6rem;
+z-index: 1;
+}
+.step .step-item.active a::before {
+background: #fff;
+border: 0.1rem solid #5755d9;
+}
+.step .step-item.active ~ .step-item::before {
+background: #e7e9ed;
+}
+.step .step-item.active ~ .step-item a::before {
+background: #e7e9ed;
+}
+
+.tooltip {
+position: relative;
+}
+.tooltip::after {
+background: rgba(69, 77, 93, 0.9);
+border-radius: 0.1rem;
+bottom: 100%;
+color: #fff;
+content: attr(data-tooltip);
+display: block;
+font-size: 0.7rem;
+left: 50%;
+max-width: 320px;
+opacity: 0;
+overflow: hidden;
+padding: 0.2rem 0.4rem;
+pointer-events: none;
+position: absolute;
+text-overflow: ellipsis;
+transform: translate(-50%, 0.4rem);
+transition: all 0.2s ease;
+white-space: pre;
+z-index: 300;
+}
+.tooltip:focus::after, .tooltip:hover::after {
+opacity: 1;
+transform: translate(-50%, -0.2rem);
+}
+.tooltip[disabled], .tooltip.disabled {
+pointer-events: auto;
+}
+.tooltip.tooltip-right::after {
+bottom: 50%;
+left: 100%;
+transform: translate(-0.2rem, 50%);
+}
+.tooltip.tooltip-right:focus::after, .tooltip.tooltip-right:hover::after {
+transform: translate(0.2rem, 50%);
+}
+.tooltip.tooltip-bottom::after {
+bottom: auto;
+top: 100%;
+transform: translate(-50%, -0.4rem);
+}
+.tooltip.tooltip-bottom:focus::after, .tooltip.tooltip-bottom:hover::after {
+transform: translate(-50%, 0.2rem);
+}
+.tooltip.tooltip-left::after {
+bottom: 50%;
+left: auto;
+right: 100%;
+transform: translate(0.4rem, 50%);
+}
+.tooltip.tooltip-left:focus::after, .tooltip.tooltip-left:hover::after {
+transform: translate(-0.2rem, 50%);
+}
+</style>
