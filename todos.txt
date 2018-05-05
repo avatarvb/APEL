@@ -9,7 +9,7 @@ Todos list:
 
 * home :
       {
-        init carousel
+        init carousel  ----------- ok
       }
 * Contact :
       {
