@@ -1,0 +1,14 @@
+les outils utilisés :
+
+javascript-----------------------
+  jQuery
+  url: http://code.jquery.com/jquery-latest.min.js
+style-----------------------
+  Materializecss
+  url: https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css
+icons-----------------------
+  Material Icons
+  url:https://fonts.googleapis.com/icon?family=Material+Icons
+fonts-----------------------
+  Lato
+  url:https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i&amp;subset=latin-ext
