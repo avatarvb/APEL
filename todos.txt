@@ -1,0 +1,32 @@
+Todos list:
+==================================================================
+* Opt Lang :
+      {
+        select options = Arb, Fr, Eng
+      }
+
+-------------------------------------------------------------------
+
+* home :
+      {
+        init carousel
+      }
+* Contact :
+      {
+       amélioration du style  ----------- ok
+      }
+* Accommodation: {}
+* Keynote: {}
+* Partners Page:
+      {
+        amélioration la prsentation des labels  ----------- ok
+      }
+* Previous Editions Page:
+      {
+        probleme de style ---------------- ok
+      }
+* Committee: {}
+* Registration Page: {}
+* Submission Page: {}
+* Topics Page: {}
+* Trainings Page: {}
