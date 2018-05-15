@@ -61,7 +61,7 @@ nav{
   .main-content{margin-top:40px;}
 
   /* Style home */
-  #home-intro blockquote{border-left:5px solid rgba(255,179,0, .6);text-align: justify;}
+  blockquote{border-left:5px solid rgba(255,179,0, .6) !important;text-align: justify !important;}
   #home h5{background-color:#FFB300;width: 300px;padding:10px;color: #FFF;font-weight: 300;}
   .logo-apel{height: 76px;width:500px; display:block;margin:20px auto !important;background: url('../img/titre-logo-date.png')top center;background-size: 95%;background-repeat:no-repeat;}
   .carousel{border-bottom:4px solid #FFB300;height: 360px !important;}
